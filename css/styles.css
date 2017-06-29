@@ -28,7 +28,7 @@ body, html {
 	height:100%;
 	font-size:1em;
 	line-height:1.6;
-	font-family:'questrial', Arial, Helvetica, sans-serif;
+	font-family: helvetica, 'questrial', Arial, Helvetica, sans-serif;
 
 }
 
@@ -87,7 +87,7 @@ html nav ul {
 nav span, nav a {
  
 	text-decoration:none;
-	font-family:'questrial', Arial, Helvetica, sans-serif;
+	font-family:helvetica, 'questrial', Arial,  sans-serif;
 	color:#fff;
 	font-size:.8em;
 	 
@@ -198,7 +198,7 @@ padding:0px 0px;
 margin:40px auto;
 width:960px;
 height:546px;
-background-image:url("../images/insh_homebg.jpg");
+background-image:url("../images/insh_03.jpg");
 background-repeat:no-repeat;
 background-size:cover;
 position:relative;
@@ -217,27 +217,29 @@ top:80px;
 }
 
 .poemLinkContainer {
-width:280px;
+width:287px;
 height:30px;
 position:relative;
-top:440px;
+top:460px;
 margin:0px auto;
+
 
 }
 
 
 .poemLink, .poemLink a {
-	font-family:'questrial', helvetica, arial, sans-serif;
+	font-family:helvetica, 'questrial', arial, sans-serif;
 	color:#fff;
-	font-size:17px;
+	font-size:18px;
 	float:left;
 	padding-right:6px;
 	line-height:26px;
 	text-decoration:none;
+
 }
 
 .poemLink a:hover {
-	color:#c433b1;
+	color:#ea3aff;
 }
 
 .poemLinkArrow {
@@ -412,6 +414,7 @@ footer {
 	width:100%;
 	max-width:960px;
 	padding-top:1%;
+	margin:0px auto;
 	
 }
 .footerInner {
